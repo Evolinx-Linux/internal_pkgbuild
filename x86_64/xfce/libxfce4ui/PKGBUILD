@@ -1,7 +1,7 @@
 pkgname=libxfce4ui
-pkgver=4.18.1
-xver=4.18
-pkgrel=2
+pkgver=4.19.2
+xver=4.19
+pkgrel=3
 arch=('x86_64')
 depends=(gtk+ xfconf gtk-doc gobject-introspection libgudev)
 makedepends=()
@@ -13,7 +13,7 @@ build() {
 	./configure		\
 	--prefix=/usr		\
 	--sysconfdir=/etc	\
-	--with-vendor-info='Drunk Linux'
+	--with-vendor-info='Evolutionary Linux'
 
 	make
 }

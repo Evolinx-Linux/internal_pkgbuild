@@ -1,5 +1,5 @@
-pkgname=drunk-desktop-xfce-clean
-pkgver=2022.3
+pkgname=evolinx-desktop-xfce-clean
+pkgver=2023.1
 pkgrel=1
 arch=(x86_64)
 depends=(
