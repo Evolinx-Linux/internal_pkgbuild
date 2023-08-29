@@ -20,5 +20,4 @@ package() {
 
 	cp -f $srcdir/xfwm4.xml $pkgdir/etc/xdg/xfce4/xfconf/xfce-perchannel-xml/
 	cp -f $srcdir/settings.ini $pkgdir/etc/xdg/gtk-3.0/
-	cp -f $srcdir/xinitrc 
 }
